@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Page</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="game.js"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Game.html">Game</a></li>
+            <li><a href="contacts.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <h2>Welcome to Star Wars (RPSLS) Game</h2>
+
+<div class="RulesSection">
+    <ol>
+        <li>Rey beats Palpatine</li>
+        <li>Obi-Wan defeats Anakian</li>
+        <li>Anakian defeats Darth Vader</li>
+        <li>Darth Vader defeats Obi-Wan Kenobi</li>
+        <li>Who ever wins the first round wins </li>
+    </ol>
+</div>
+<br>
+    <img src="darthVader.jpg" height="300" width="250"/>
+    <img src="palpatine.jpg" height="300" width="250"/>
+    <img src="anakian.jpg" height="300" width="250"/>
+    <img src="obi-wan.jpg" height="300" width="250"/>
+    <img src="reySkywalker.jpg" height="300" width="250"/>
+
+    <br>
+
+    <p class="user">User has selected <span id="userOutput"></span></p>
+    <br>
+    <p class="computer">Computer has selected <span id="computerOutput"></span> </p>
+    <br>
+    <p class="winner">The winner is: <span id="winner"></span> </p>
+    <br>
+    <p class="finish"><span id="gameOver"></span> </p>
+    <footer>Nick Rady &copy; December 2020</footer>
+</div>
+</body>
+</html>

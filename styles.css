@@ -1,0 +1,87 @@
+*
+{
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, ul, ol, dl
+{
+    margin-bottom: 20px;
+}
+h1
+{
+    text-align: center;
+}
+img
+{
+    float: left;
+    margin-left: 10px;
+}
+ol,li
+{
+    clear: both;
+}
+nav ul
+{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px 15px;
+    margin-right: 5px;
+    background-color: blue;;
+    color: #fff;
+    text-decoration: none;
+
+}
+nav ul li a:hover
+{
+    background-color: gray;
+}
+nav ul li a:visited
+{
+    color: red;
+}
+p
+{
+    clear: both;
+}
+.user
+{
+    border: 2px solid blue;
+}
+.computer
+{
+    border: 2px solid red;
+}
+.winner
+{
+    border: 2px solid green;
+}
+.finish
+{
+    border: 2px solid blueviolet;
+}
+footer
+{
+    clear: both;
+    text-align: center;
+    background-color: black;
+    color: red;
+}
+.RulesSection
+{
+    float: left;
+    border: 2px solid #f00;
+    margin-left: 10px;
+
+}
+#wrapper
+{
+    margin: 0 auto;
+    width: 960px;
+
+}
